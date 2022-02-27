@@ -12,9 +12,15 @@ It is more common in the current scenario to throw leftover food in the trash, p
 ## Installation Steps
 ### Backend
 ### Frontend
+1. Clone/Download the mobile branch repository.
+2. Run `flutter pub get` to get all the dependencies
+3. Now, app is ready to run using `flutter run`
 
 ## Libraries and dependencies
 ### Backend
 ### Frontend
+1. Google Maps API
+2. _flutter_localizations_ dependency for internationalization 
+3. Other flutter packages as per _pubspec.yaml_
 
 ## Declaration of Previous Work
