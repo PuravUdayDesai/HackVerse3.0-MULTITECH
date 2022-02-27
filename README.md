@@ -68,3 +68,23 @@ It is more common in the current scenario to throw leftover food in the trash, p
 3. Other flutter packages as per _pubspec.yaml_
 
 ## Declaration of Previous Work
+### Before
+1. Project Planning and Ideation.
+2. Project Flow Structuring.
+3. Database Design.
+4. Implemented 3 user modules (composter, supplier, farmer) with basic CRUD in Back-end.
+5. Implemeted authentication of 3 user modules in front-end.
+
+### In 24-Hours
+1. Restructed Database design and made it normalized.
+2. Mapped independent 3 user modules and established a connection between them.
+3. Added basic statistics and analysis in Front-end for composter and farmer.
+4. Google Maps API in Front-end.
+5. Internationalization with 2 languages (Hindi, Gujarati)
+6. Made front-end code compatible with latest version of Flutter.
+7. Developed and Integrated end-points.
+8. Restructed backend code and added search and filtering options.
+
+## Documentation
+
+Backend API documentation: [https://documenter.getpostman.com/view/13664185/UVkqqZkT#cbe4a2bf-a801-42ee-bbca-378915e328a8](https://documenter.getpostman.com/view/13664185/UVkqqZkT#cbe4a2bf-a801-42ee-bbca-378915e328a8)
