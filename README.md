@@ -11,13 +11,57 @@ It is more common in the current scenario to throw leftover food in the trash, p
 
 ## Installation Steps
 ### Backend
+1. Clone github repository
+2. Create a Spring Boot Starter Project
+3. Run as Spring Boot Application
 ### Frontend
 1. Clone/Download the mobile branch repository.
 2. Run `flutter pub get` to get all the dependencies
 3. Now, app is ready to run using `flutter run`
 
 ## Libraries and dependencies
-### Backend
+### Backend (pom.xml)
+```xml
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+```
+```xml
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+```
+```xml		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+```
+```xml
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.10.13</version>
+		</dependency>
+```
+```xml
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+```
+```xml		
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>2.0.1.Final</version>
+		</dependency>
+```
 ### Frontend
 1. Google Maps API
 2. _flutter_localizations_ dependency for internationalization 
